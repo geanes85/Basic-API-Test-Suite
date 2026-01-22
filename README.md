@@ -12,16 +12,15 @@ Skills demonstrated include:
 -Performance testing (response time)
 
 # Project Structure
-**tests/**: Contains the below test scripts
-   test_users_basic.py        # GET requests, list validation
-   test_users_negative.py     # Negative testing
-   test_users_schema.py       # Schema / contract validation
-   test_users_performance.py  # Response time checks
-**requirements.txt**: Dependencies required to run the project.
+   **test_users_basic.py**: GET requests, list validation
+   **test_users_negative.py**: Negative testing
+   **test_users_schema.py**: Schema / contract validation
+   **test_users_performance.py**: Response time checks
+   **requirements.txt**: Dependencies required to run the project.
 
 # How to Run the Tests
 1. Clone the repository:
-   git clone https://github.com/<your-username>/api_test_suite.git
+   git clone https://github.com/<geanes85>/Basic-API-Test-Suite.git
    cd api_test_suite
 2. Install dependencies:
    pip install -r requirements.txt
