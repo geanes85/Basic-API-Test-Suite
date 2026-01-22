@@ -7,6 +7,12 @@ def test_get_user_by_id():
 
   data = response.json()
 
-  assert data["id"] == 1
-  assert "email" in data
-  assert isinstance(data["username"], str)
+    assert data["id"] == 1
+    assert "email" in data
+    assert isinstance(data["username"], str)
+    assert isinstance(data, list)
+    assert len(data) > 0
+    for user in data:
+        assert "id" in user
+        assert "name" in user
+        assert "email" in user
